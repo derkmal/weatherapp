@@ -41,7 +41,7 @@ async function getWeatherData(cityValue) {
         }, 1000);
 
         mainContainer.animate([
-                {backgroundColor: '#76B1FF', height: '509px'},
+                {backgroundColor: 'rgba(118, 177, 255, 0.2)', height: '509px'},
             ],
             {
                 duration: 1000,
