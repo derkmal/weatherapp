@@ -10,6 +10,7 @@ formEl.addEventListener('submit', (e)=> {
     e.preventDefault();
     const cityValue = cityInput.value;
     getWeatherData(cityValue);
+    cityInput.value = "";   //" " oder ' ' die auto-complete Attribute ausschalten
 });
 
 async function getWeatherData(cityValue) {

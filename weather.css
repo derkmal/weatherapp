@@ -7,7 +7,6 @@
 body {
     font-family: "Montserrat", sans-serif;
     background-image: url(images/sunset_mountains.jpg);
-    /* background-position-x: center; */
     background-position-y: -570px;
     background-attachment: fixed;
 }
@@ -58,6 +57,11 @@ form input[type="submit"]:hover {
 form input[type="submit"]:active {
     transform: scale(0.98);
 }
+
+/* form input[type="submit"].disable {
+    opacity: 0.5;
+    cursor: not-allowed;
+} */
 
 .icon img {
     width: 100px;
